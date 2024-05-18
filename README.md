@@ -1,24 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Para dar inicio ao teste do projeto, copie o link do repositorio e puxe para seu local
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Para iniciar o front e api juntos
+yarn api
+# Para iniciar o api separado
+yarn frontend
+# Para iniciar o frontend separado
+#
+# Ou entre em cada arquivo para gerar o run separadamente
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) com o seu navegador para ver o resultado.
+OBS: Dependendo de suas versoes o projeto vai requisitar um refresh no navegador ao aparecer a tela "loading..."
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Nesse projeto eu utilizo [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) no frontend e apenas [`node.js/back`](https://nodejs.org/en) no backend.
 
 ## Learn More
 
