@@ -18,13 +18,11 @@ Em seguida, instale as dependências e execute o servidor de desenvolvimento:
 ## Instalação das dependências
 
 ```bash
-yarn install
-# Para iniciar dependencias
-
-# Acesse o arquivo API e front
+Require
+# Acesse o arquivo API e front e gere o comando yarn install
 
 yarn dev
-# Para iniciar o front e api juntos
+# Dentro de cada arquivo, gere este comando para inicar 
 ```
 
 Abra [http://localhost:3000](http://localhost:3000) no seu navegador para visualizar a aplicação. Se a tela de "loading..." aparecer, atualize o navegador.
