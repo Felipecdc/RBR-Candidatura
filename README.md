@@ -6,6 +6,8 @@ Este projeto é uma aplicação web desenvolvida usando Next.js no frontend e No
 
 Para começar, clone o repositório para o seu ambiente local:
 
+obs: Antes de gerar o clone, inicie seu arquivo node_modules
+
 ```bash
 git clone <link-do-repositorio>
 cd nome-do-repositorio
@@ -16,15 +18,13 @@ Em seguida, instale as dependências e execute o servidor de desenvolvimento:
 ## Instalação das dependências
 
 ```bash
+yarn install
+# Para iniciar dependencias
+
+# Acesse o arquivo API e front
+
 yarn dev
 # Para iniciar o front e api juntos
-yarn api
-# Para iniciar o api separado
-yarn frontend
-
-# Para iniciar o frontend separado
-#
-# Ou entre em cada arquivo para gerar o run separadamente
 ```
 
 Abra [http://localhost:3000](http://localhost:3000) no seu navegador para visualizar a aplicação. Se a tela de "loading..." aparecer, atualize o navegador.
