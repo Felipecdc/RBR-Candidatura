@@ -31,7 +31,9 @@ yarn dev
 # Crie um aruqivo .env com essa config:
 
 MONGODB_URL=mongodb+srv://api:rOmBT7xNvHAeZyoq@cluster0.vvx7u8c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-PORT=3333 
+PORT=3333
+
+# Ou troque os valores dentro de API/src/server.ts
 ```
 
 Abra [http://localhost:3000](http://localhost:3000) no seu navegador para visualizar a aplicação. Se a tela de "loading..." aparecer, atualize o navegador.
