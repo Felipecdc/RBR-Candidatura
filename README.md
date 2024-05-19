@@ -25,6 +25,15 @@ yarn dev
 # Dentro de cada arquivo, gere este comando para inicar 
 ```
 
+## Acesso ao banco API
+
+```bash
+# Crie um aruqivo .env com essa config:
+
+MONGODB_URL=mongodb+srv://api:rOmBT7xNvHAeZyoq@cluster0.vvx7u8c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+PORT=3333 
+```
+
 Abra [http://localhost:3000](http://localhost:3000) no seu navegador para visualizar a aplicação. Se a tela de "loading..." aparecer, atualize o navegador.
 
 ## Mais Informações
