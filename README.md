@@ -34,6 +34,9 @@ MONGODB_URL=mongodb+srv://api:rOmBT7xNvHAeZyoq@cluster0.vvx7u8c.mongodb.net/?ret
 PORT=3333
 
 # Ou troque os valores dentro de API/src/server.ts
+
+const MONGODB_URL = "mongodb+srv://api:rOmBT7xNvHAeZyoq@cluster0.vvx7u8c.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const PORT = 3333;
 ```
 
 Abra [http://localhost:3000](http://localhost:3000) no seu navegador para visualizar a aplicação. Se a tela de "loading..." aparecer, atualize o navegador.
