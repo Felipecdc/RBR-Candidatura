@@ -1,8 +1,19 @@
-<!-- Para dar inicio ao teste do projeto, copie o link do repositorio e puxe para seu local
+## Projeto RBR
 
-## Getting Started
+Este projeto é uma aplicação web desenvolvida usando Next.js no frontend e Node.js no backend.
 
-First, run the development server:
+## Iniciando
+
+Para começar, clone o repositório para o seu ambiente local:
+
+```bash
+git clone <link-do-repositorio>
+cd nome-do-repositorio
+```
+
+Em seguida, instale as dependências e execute o servidor de desenvolvimento:
+
+## Instalação das dependências
 
 ```bash
 yarn dev
@@ -21,12 +32,13 @@ OBS: Dependendo de suas versoes o projeto vai requisitar um refresh no navegador
 
 Nesse projeto eu utilizo [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) no frontend e apenas [`node.js/back`](https://nodejs.org/en) no backend.
 
-##  More
+## More
 
 Para tirar mais duvidas entre em contato comigo via email
 
-felipecdc09@gmail.com -->
+felipecdc09@gmail.com
 
+<!--
 # Projeto RBR
 
 Este projeto é uma aplicação web desenvolvida usando Next.js no frontend e Node.js no backend.
@@ -61,4 +73,4 @@ Este projeto utiliza o Next.js para o frontend e o Node.js para o backend. Para 
 
 ## Contato
 
-Para tirar dúvidas ou obter suporte, entre em contato comigo por e-mail em felipecdc09@gmail.com.
+Para tirar dúvidas ou obter suporte, entre em contato comigo por e-mail em felipecdc09@gmail.com. -->
